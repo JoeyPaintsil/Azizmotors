@@ -3,6 +3,7 @@ import './Footer.scss';
 const Footer = () => (
   <footer className="footer">
     <div className="container footer__inner">
+      <h2 className="footer__brand">Aziz Motors</h2>
       <div className="footer__links">
         <a href="#offer">Cash For Cars</a>
         <a href="#about">About</a>

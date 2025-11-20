@@ -12,6 +12,23 @@
     align-items: center;
     gap: 10px;
     text-align: center;
+
+    @include respond(mobile) {
+      align-items: flex-start;
+      text-align: left;
+      padding-left: 20px;
+    }
+  }
+
+  &__brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    color: white;
+
+    @include respond(mobile) {
+      margin-bottom: 16px;
+    }
   }
 
   &__links {
@@ -25,6 +42,13 @@
       color: white;
       font-size: 16px;
     }
+
+    @include respond(mobile) {
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
   }
 
   &__location {
@@ -34,10 +58,18 @@
   &__phone {
     color: white;
     font-weight: 600;
+
+    @include respond(mobile) {
+      align-self: flex-start;
+    }
   }
 
   small {
     color: rgba(255, 255, 255, 0.7);
+
+    @include respond(mobile) {
+      align-self: flex-start;
+    }
   }
 }
 
