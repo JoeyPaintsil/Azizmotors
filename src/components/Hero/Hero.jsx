@@ -16,8 +16,8 @@ const Hero = () => (
                 to worry about deliverying your car. We tow your car away completely free!!
                 No hassle, no stress, just quick cash in your pocket. Get an <b>instant</b> offer for your car today!
                 <br></br>Call{' '}
-              <a href="tel:8883834181" className="hero__phone">
-                (888) 383-4181
+              <a href="tel:678-456-8732" className="hero__phone">
+                (678) 456-8732
               </a>
             </p>
             <div className="hero__contact">
